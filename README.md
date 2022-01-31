@@ -60,8 +60,7 @@ Build tested on Ubuntu 20.04.
 
 ## Membrii echipei
 
-- Buzoi Bianca-Nicoleta
-- Gavril Bogdan Mircea
-- Necula Florin-Alexandru
-- Oanea Ana-Malina
-- Samoilescu Camelia
+- Bertalan Victor
+- Chelaru Gabriela
+- Ghețu Cristina Marina
+- Sin Andrei Vlad
