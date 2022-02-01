@@ -6,7 +6,7 @@
         "1":{
             "token-delimitators": "",
             "protocol": "HTTP",
-            "prefix": "curl -XPOST 'http://127.0.0.1:9080/setting/:settingName'",
+            "prefix": "curl -XPOST 'http://127.0.0.1:8080/setting/:settingName'",
             "buffer-tokens":[
             {
                 "name":"latime",
@@ -37,14 +37,14 @@
 		"2":{
             "token-delimitators": "",
             "protocol": "HTTP",
-            "prefix": "curl -XPOST 'http://127.0.0.1:9080/goToCharge'",
+            "prefix": "curl -XPOST 'http://127.0.0.1:8080/goToCharge'",
             "buffer-tokens":[
             ]
 		},
         "3":{
             "token-delimitators": "",
             "protocol": "HTTP",
-            "prefix": "curl -XPOST 'http://127.0.0.1:9080/:stateName'",
+            "prefix": "curl -XPOST 'http://127.0.0.1:8080/:stateName'",
             "buffer-tokens":[
             {
                 "name":"state",
@@ -59,7 +59,7 @@
         "4":{
             "token-delimitators": "",
             "protocol": "HTTP",
-            "prefix": "curl -XPOST 'http://127.0.0.1:9080/init/:value'",
+            "prefix": "curl -XPOST 'http://127.0.0.1:8080/init/:value'",
             "buffer-tokens":[
             {
                 "name":"batteryInit",
@@ -76,7 +76,7 @@
         "1":{
             "token-delimitators": "",
             "protocol": "HTTP",
-            "prefix": "curl -XGET 'http://127.0.0.1:9080/setting/:settingName'",
+            "prefix": "curl -XGET 'http://127.0.0.1:8080/setting/:settingName'",
             "buffer-tokens":[
                 {
                     "name":"lungime",
@@ -107,7 +107,7 @@
 		"2":{
             "token-delimitators": "",
             "protocol": "HTTP",
-            "prefix": "curl -XGET 'http://127.0.0.1:9080/'",
+            "prefix": "curl -XGET 'http://127.0.0.1:8080/'",
             "buffer-tokens":[
                 {
                     "name":"baterie",
